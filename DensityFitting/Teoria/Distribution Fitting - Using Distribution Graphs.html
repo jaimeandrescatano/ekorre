@@ -1,0 +1,328 @@
+<html><head>
+  <title>Distribution Fitting - Using Distribution Graphs</title>
+  <meta name="description" content="Distribution fitting tutorial: How to use distribution graphs to compare the fitted distributions and select the best model">
+  <meta name="keywords" content="Distribution,fitting,graphs,graph,pdf,cdf,p-p plot,q-q plot,quantile-quantile,probability density,cumulative distribution,histogram,kolmogorov,smirnov,model,goodness of fit tests">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="MathWave Technologies">
+  <!-- base href="http://www.mathwave.com/" -->
+  <link rel="stylesheet" type="text/css" href="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/style.css" media="all">
+  <meta http-equiv="Expires" content="Fri Jun 12 1981 08:20:00 GMT">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-control" content="no-cache">
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <meta http-equiv="Content-Language" content="en">
+  <script language="JavaScript" src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/mathwave.js" type="text/javascript"></script>
+  <meta name="verify-v1" content="PV8WWaf3AMsVYQu0AmPa0aKUPW4sQNusu5euJWS3uME=">
+  <meta name="google-site-verification" content="lpKqcseu7OPSiNPUz5BBKfQp32eeeqDeixmEg0K8NGE">
+</head>
+
+<body>
+  <a name="top"></a>
+
+      <div id="ww-body-all">
+    
+        <div id="ww-header">
+      <div id="ww-lang">
+        <div style="float: right; font-size: 11px;">
+                English         |
+        <a href="http://www.mathwave.com/de/home.html">Deutsch</a>         |
+        <a href="http://www.mathwave.com/fr/home.html">Français</a> |
+        <a href="http://www.mathwave.com/es/home.html">Español</a>  |
+        <a href="http://www.mathwave.com/it/home.html">Italiano</a>        
+                </div>
+      </div>
+    </div>
+
+        <div id="menu-header">
+                  <ul>
+        <li><a href="http://www.mathwave.com/en/home.html">Home</a></li>
+        <li>
+          <a href="http://www.mathwave.com/easyfit-distribution-fitting.html" class="drop-down">Products</a>
+          <ul>
+            <li><a href="http://www.mathwave.com/easyfit-distribution-fitting.html">EasyFit</a></li>
+            <li><a href="http://www.mathwave.com/easyfitxl-distribution-fitting-excel.html">EasyFit for Excel</a></li>
+            <li><a href="http://www.mathwave.com/products/simulation_probabilistic_analysis_sdk.html">EasyFit SDK</a></li>
+                      </ul>
+        </li>
+        
+        
+        <li><a href="http://www.mathwave.com/videos/easyfit-distribution-fitting-demo.html">Video</a></li>
+        <li><a href="http://www.mathwave.com/downloads.html">Downloads</a></li>
+        <li><a href="http://www.mathwave.com/articles/distribution_fitting.html">Articles</a></li>
+        <li><a href="http://www.mathwave.com/order.html">Order</a></li>
+        <li><a href="http://www.mathwave.com/support.html">Support</a></li>
+        <li>                                                                            
+          <a href="http://www.mathwave.com/company.html" class="drop-down">Company</a>
+          <ul>
+            <li><a href="http://www.mathwave.com/blog/">Blog / News</a></li>
+            <li><a href="http://www.mathwave.com/testimonials.html">Testimonials</a></li>
+            <li><a href="http://www.mathwave.com/academia.html">Academia</a></li>
+            <li><a href="http://www.mathwave.com/resellers.html">Resellers</a></li>
+            <li><a href="http://www.mathwave.com/partners.html">Partners</a></li>
+            <li><a href="http://www.mathwave.com/contact.html">Contact</a></li>
+            <li><a href="http://www.mathwave.com/company.html">About</a></li>
+          </ul>
+        </li>
+      </ul>
+                      </div>
+    
+    <div id="ww-middle">
+      <center>
+      <div id="ww-content"><div id="ww-noblog">
+              
+  
+  <img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/rarrow.gif" alt="" height="9" width="11">  
+  <a href="http://www.mathwave.com/easyfit-distribution-fitting.html">Distribution Fitting Software</a> &amp; <a href="http://www.mathwave.com/articles/distribution_fitting.html">Articles</a>
+  <br><br>
+
+  
+  <h1>Distribution Fitting - Using Distribution Graphs</h1>
+
+  
+  <div style="float: right; margin-left: 27px; margin-bottom: 20px; margin-top: 17px; width: 204px;">
+    <div class="hint-box-large">
+      <!--div class="hint-box-large-header">Featured Product</div-->
+      <div class="hint-box-large-body" style="padding-top: 1.1em; padding-bottom: 1.1em; padding-left: 1.1em; padding-right: 1.1em; line-height: 1.3em; font-size: 14px;">
+        <a href="http://www.mathwave.com/easyfit-distribution-fitting.html" title="Distribution Fitting Software"></a><center><a href="http://www.mathwave.com/easyfit-distribution-fitting.html" title="Distribution Fitting Software"><b>EasyFit</b></a>:
+        select the best fitting distribution and use it to
+        make better decisions.
+         <a href="http://www.mathwave.com/easyfit-distribution-fitting.html"><u>learn more</u></a></center>
+        <center>
+        <div style="margin-top: 1.5em; margin-bottom: 1.5em;">
+          <a onclick="return showPopupImg('/img/easyfit/02.gif',650,450);" href="http://www.mathwave.com/img/easyfit/02.gif" title="EasyFit Screenshot - Click To Enlarge"><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/s02.gif" alt="EasyFit Screenshot - Click To Enlarge" height="104" width="150"></a>        </div>
+        </center>
+
+        
+        
+        <center>
+                    <a href="http://www.mathwave.com/downloads/easyfit-setup.exe" onclick="javascript:pageTracker._trackPageview('/downloads/easyfit');"><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/download_en.gif" alt="Download Free Trial" height="38" width="143"></a>        </center>
+      </div>
+    </div>
+  </div>
+  
+
+  <p>
+  This article covers the most commonly used graph types and explains how they can
+  be used to fit probability distributions to your data.
+  </p>
+
+  <h2>Why Use Distribution Graphs?</h2>
+
+  <p>
+  Along with the <a href="http://www.mathwave.com/articles/distribution-fitting-goodness-of-fit.html">goodness of fit tests</a>,
+  the distribution graphs can be very helpful to determine the best fitting model.
+  The fundamental difference of this approach is that it is quite subjective: while the 
+  goodness of fit tests are "exact" in the sense that the results do not depend on the researcher 
+  (provided that the tests are performed correctly), using various graphs is a more empirical 
+  way to analyze your data.
+  </p>
+
+  <p>
+  Why don't just use the goodness of fit tests? There are several commonly used tests, 
+  all of which tell you whether a particular distribution is a good fit. However,
+  these tests differ in how they are performed, and sometimes do not agree with one
+  another. For example, you might find out that according to the Kolmogorov-Smirnov test,
+  the Weibull distribution is the best fit, but the Anderson-Darling test suggests that
+  it is not. That is when the graphs come in handy.
+  </p>
+
+  <h3>Which Distribution Graphs You Can Use</h3>
+
+  <p>
+  There are at least five useful graph types:
+  </p>
+
+  <ul>
+    <li><a href="http://www.mathwave.com/articles/distribution-fitting-graphs.html#pdf">Probability Density Function (PDF) Graph</a></li>
+    <li><a href="http://www.mathwave.com/articles/distribution-fitting-graphs.html#cdf">Cumulative Distribution Function (CDF) Graph</a></li>
+    <li><a href="http://www.mathwave.com/articles/distribution-fitting-graphs.html#pp">Probability-Probability (P-P) Plot</a></li>
+    <li><a href="http://www.mathwave.com/articles/distribution-fitting-graphs.html#qq">Quantile-Quantile (Q-Q) Plot</a></li>
+    <li><a href="http://www.mathwave.com/articles/distribution-fitting-graphs.html#dif">Probability Difference Graph</a></li>
+  </ul>
+
+  <p>
+  These graphs are usually created based on your sample data and one or several
+  fitted distributions. Typically, displaying several distributions at the same time 
+  allows you to visually compare the models and determine how they differ.
+  EasyFit allows you to select multiple fitted models by holding down the Ctrl key
+  and clicking ths distribution names. To switch between the different graph
+  types, you can use the View|Graph Type menu option, or just click the toolbar icons:
+  </p>
+
+  <div><center><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/toolbar_graph_type.gif" alt="EasyFit Toolbar - Graph Types" height="60" width="229"></center>&nbsp;</div>
+
+  <p>
+  The graphs can be zoomed, panned, exported to a variety of formats, or printed.
+  In addition, you can customize the graphs to fit the style of your presentations
+  or documents. These options are available from the popup menu (right-click the graph).  
+  </p>
+
+  <div id="top-link"><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/uarrow.gif" alt="" height="11" width="9"> <a href="http://www.mathwave.com/articles/distribution-fitting-graphs.html#top">top</a></div>  
+
+  <a name="pdf"></a>
+  <h2>Probability Density Function (PDF) Graph</h2>  
+
+  <p>
+  The Probability Density Function graph displays the <a href="http://www.mathwave.com/articles/distribution_graphs.html">theoretical PDF</a> 
+  of the fitted distribution (or several distributions) and the <a href="http://en.wikipedia.org/wiki/Histogram">histogram</a> 
+  of your sample data:
+  </p>
+
+  <div><center><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/graphs_pdf1.gif" alt="Probability Density Function Graph" height="246" width="336"></center>&nbsp;</div>
+
+  <p>
+  The histogram graphically shows various properties of your data, including the 
+  location, scale, and shape, helping you <i>visually identify</i> an underlying 
+  probability distribution:
+  </p>
+
+  <div><center><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/graphs_pdf2.gif" alt="Histograms of Various Probability Distributions" height="275" width="375"></center>&nbsp;</div>
+
+  <p>
+  The histogram depends on how the data is sorted into bins (classes). Although there is 
+  no generally accepted way to select the number of bins, it can be chosen using some 
+  empirical formulas based on the sample size (the total number of observations). 
+  EasyFit uses the popular Sturges' formula:
+  </p>
+  
+  <p>
+  </p><center>k = 1 + log<sub>2</sub>N,</center>
+  <p></p>
+   
+  <p>
+  where N is the sample size, and k is the resulting number of bins. Alternatively,
+  you can manually specify this number in the Graph Options window (right-click the 
+  graph and select Options).
+  </p>
+
+  <p>
+  The height of each bar is calculated as the number of data points falling into that 
+  class, divided by the total number of observations. This kind of histogram is also 
+  called the <i>relative histogram</i>, since the bar heights represent the proportion 
+  of the data in each class (see also <a href="http://www.mathwave.com/articles/create-use-histograms.html">How To Create And Use Histograms</a>).
+  </p>
+
+  <div id="top-link"><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/uarrow.gif" alt="" height="11" width="9"> <a href="http://www.mathwave.com/articles/distribution-fitting-graphs.html#top">top</a></div>  
+
+  <a name="cdf"></a>
+  <h2>Cumulative Distribution Function (CDF) Graph</h2>  
+
+  <p>
+  The Cumulative Distribution Function graph displays the 
+  <a href="http://www.mathwave.com/articles/distribution_graphs.html#cdf">theoretical CDF</a> of the fitted 
+  distributions and the empirical CDF based on your sample data. While the PDF graph 
+  mainly shows the shape of your data, the CDF graph is useful to 
+  actually determine how well the distributions fit to data:
+  </p>
+
+  <div><center><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/graphs_cdf1.gif" alt="Cumulative Distribution Function Graph" height="250" width="650"></center>&nbsp;</div>
+
+  <p>
+  The empirical CDF graph also depends on the number of bins chosen.
+  As you increase this number, the ECDF curve gets smoother:
+  </p>
+
+  <div><center><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/graphs_cdf2.gif" alt="Cumulative Distribution Function Graph" height="250" width="650"></center>&nbsp;</div>
+
+  <div id="top-link"><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/uarrow.gif" alt="" height="11" width="9"> <a href="http://www.mathwave.com/articles/distribution-fitting-graphs.html#top">top</a></div>  
+
+  <a name="pp"></a>
+  <h2>Probability-Probability (P-P) Plot</h2>  
+
+  <p>
+  The probability-probability plot is a graph of the empirical CDF values 
+  plotted against the theoretical (fitted) CDF values. It is used to determine how well 
+  a specific distribution fits to the observed data. The P-P plot will be approximately 
+  linear if the specified theoretical distribution is the correct model. EasyFit 
+  displays the diagonal line along which the graph points should fall: 
+  </p>
+
+  <div><center><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/graphs_pp1.gif" alt="Probability-Probability Plot" height="250" width="630"></center>&nbsp;</div>
+
+  <div id="top-link"><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/uarrow.gif" alt="" height="11" width="9"> <a href="http://www.mathwave.com/articles/distribution-fitting-graphs.html#top">top</a></div>  
+  
+  <a name="qq"></a>
+  <h2>Quantile-Quantile (Q-Q) Plot</h2>  
+
+  <p>
+  The quantile-quantile plot is a graph of the input data values plotted 
+  against the quantiles (inverse CDF values) of the fitted distribution. Both 
+  axes of this graph are in units of the input data set:
+  </p>
+
+  <div><center><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/graphs_qq1.gif" alt="Quantile-Quantile Plot" height="247" width="287"></center>&nbsp;</div>
+
+  <p>
+  The interpretation of the Q-Q plot is similar to the P-P plot: if the distribution you are testing is 
+  the correct model, the graph points will lie on an approximately straight line.
+  </p>
+
+  <div id="top-link"><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/uarrow.gif" alt="" height="11" width="9"> <a href="http://www.mathwave.com/articles/distribution-fitting-graphs.html#top">top</a></div>  
+
+  <a name="dif"></a>
+  <h2>Probability Difference Graph</h2>  
+
+  <p>
+  The probability difference graph is a plot of the difference between the empirical 
+  cumulative distribution function and the fitted CDF: 
+  </p>
+
+  <p>
+  </p><center>Dif(x) = F<sub>n</sub>(x) - F(x)</center>
+  <p></p>
+
+  <p>
+  While the P-P and Q-Q plots show you whether the fit is good, they don't provide
+  any quantitative information on <i>how good</i> it is. The probability difference graph 
+  is much closer to the classical goodness of fit tests in this respect: in fact, the 
+  <a href="http://www.mathwave.com/articles/goodness_of_fit.html#ks">Kolmogorov-Smirnov test</a> is based on 
+  measuring the difference of probabilities. The less the absolute value of this difference, 
+  the better the fit:
+  </p>
+
+  <div><center><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/graphs_dif1.gif" alt="Probability Difference Graphs" height="250" width="650"></center>&nbsp;</div>
+
+  <p>
+  If the maximum absolute difference is less than 0.05 (or 5%), the fit can be considered
+  <i>good</i>. For <i>very good</i> fits, this value will be less than 1%.
+  </p>
+
+  <h2>Conclusion</h2>
+
+  <p>
+  There are a variety of graphs which can be helpful for visualizing your data, 
+  comparing multiple fitted distributions, and selecting the best model. These graphs should
+  be viewed as an addition to, rather a replacement for, the goodness of fit tests. EasyFit
+  makes it easy for you to combine these two approaches: it orders the fitted distributions 
+  according to the GOF statistics, and displays the graphs for one or several models you select.
+  </p>
+
+  <p>
+  <b>See also:</b> <a href="http://www.mathwave.com/help/easyfit/html/analyses/graphs/_heading.html">EasyFit Help on distribution graphs</a>
+
+
+  </p><div id="top-link"><img src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/uarrow.gif" alt="" height="11" width="9"> <a href="http://www.mathwave.com/articles/distribution-fitting-graphs.html#top">top</a></div>  
+
+  <p>
+</p></div></div>
+      <div id="cleaner"></div>
+      </center>
+    </div>
+
+    <div id="ww-footer">
+      <div id="footer-text">Copyright © 2004-2014 MathWave Technologies.
+      All rights reserved.      &nbsp;Fax: 1-509-472-8927
+      </div>
+
+            <div id="footer-link"><a href="http://www.mathwave.com/privacy.html">Privacy Policy</a></div>
+          </div>
+  </div>
+
+    
+    
+    <script type="text/javascript" src="Distribution%20Fitting%20-%20Using%20Distribution%20Graphs_files/2145.js"> </script>
+
+    
+
+
+</body></html>
