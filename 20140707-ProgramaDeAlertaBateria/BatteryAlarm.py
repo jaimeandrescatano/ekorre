@@ -46,11 +46,11 @@ from ReproductorDeSonidos import ReproductorWAV
 
 # Creo las funciones de reproduccion de sonido
 def BateriaCargada():
-    Rep = ReproductorWAV("/JAIMEANDRES/ArchivosSistema/BateriaCargada.wav")
+    Rep = ReproductorWAV("BateriaCargada.wav")
     Rep.Reproducir()
 
 def BateriaDescargada():
-    Rep = ReproductorWAV("/JAIMEANDRES/ArchivosSistema/BatteryAlert.wav")
+    Rep = ReproductorWAV("BatteryAlert.wav")
     Rep.Reproducir()
 
 # Analizo el estado de la bateria
