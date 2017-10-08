@@ -11,7 +11,7 @@ Fuentes:
 Notas: 
     
 Keywords:
-    fechas, operaciones con fechas, 
+    fechas, operaciones con fechas 
     
 Autor: Jaime Andres Cataño Bernal 
 """
