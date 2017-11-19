@@ -1,15 +1,15 @@
 ![banner](banner.png)
 
-# Welcome to ekorre scripts!
+# Welcome to my study files!
 
-Here you will find some scripts developed for different tasks during the development process of programming under Linux in different programming languages.
+Here you will find the files developed in this course on each topic.
 
-This repository is a way to give back to the world all the knowledge received from different people on websites like [GitHub](https://github.com), [stackoverflow](https://stackoverflow.com/) among others.
+There are folders with the number of each lesson and subfolders with the exersizes developed.
 
-Feel free to use this scrips to help in the developing of your projects.
+This repository is made in order to present my personal progress to my program coordinator and clasemates.
 
-You can find details about the scripts here: [ekorre github page](http://github.ekorre.org/)
+Any comment is welcome through the course forum system.
 
-Any question or comment is welcome!
+**Jaime Andres**
 
-**Jaime Andres** :relaxed:
+:see_no_evil:
