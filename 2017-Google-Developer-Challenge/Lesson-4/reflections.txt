@@ -1,0 +1,26 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+
+    * What new skills have you learned?
+        I've learn to search in new websites like http://www.fileformat.info/info/unicode/char/1f525/index.htm 
+        I've learn to use the figure tag with a more technical approach, because all the time I use just the <img> tag.
+        
+    * What has been easy?
+        At the moment all the exersizes has been easy
+        Using the websites like MDN is also easy 
+        
+    * What has been difficult?
+        I tried to find the same font used in the first mockup exersize but it was difficult, I think that maybe the rendering of the browser used is the reason to see slightly different the font. 
+        
+    * How have you used the problem solving strategies from the first project to overcome challenges so far?
+        I find the relation between the representation of a single item (paragraph, image etc.) in the mockup image and the html tags that I can use to get the "visual effect". 
+        If I don't remember which tag should be used then I go to the MDN to find alternatives.
+        Then I write the code in my text editor and then I render the page in my web browser, if the visual effect matches the mockup image then I continue to the next item. 
+        At the end I compare the whole html page with the mockup image to verify that every item has the same size, shape and the distances between the text lines, the images etc. 
