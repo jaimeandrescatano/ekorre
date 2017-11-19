@@ -2,7 +2,7 @@
 
 Please go to this link in order to render the exersize:
 
-[Render exersize!](http://htmlpreview.github.com/?https://github.com/jaimeandrescatano/ekorre/blob/master/2017-Google-Developer-Challenge/Lesson-3/12/web-dev-blog/index.html)
+[Render exersize!](http://github.ekorre.org/2017-Google-Developer-Challenge/Lesson-3/12/web-dev-blog/index.html)
 
 **Jaime Andres**
 
