@@ -1,4 +1,4 @@
-(banner.png)
+![banner](banner.png)
 
 # Welcome to ekorre scripts!
 
