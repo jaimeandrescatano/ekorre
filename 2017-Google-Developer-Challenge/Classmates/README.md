@@ -9,4 +9,4 @@ Here you can find code according to the conversations that I have had with my cl
 
 ## **Record of classmates**
 
-:woman: --- *[jasmina.cujes](https://discussions.udacity.com/u/jasmina.cujes)*
+:woman: *[jasmina.cujes](https://discussions.udacity.com/u/jasmina.cujes)*
