@@ -6,4 +6,4 @@ Here you can find code according to our conversations
 [@jaimeandrescatano](https://discussions.udacity.com/u/jaimeandrescatano)
 
 
-**2017-11-19** [Render exercise!](http://github.ekorre.org/2017-Google-Developer-Challenge/Clasemates/jasmina.cujes/mico.html)
+**2017-11-19** [Render exercise!](http://github.ekorre.org/2017-Google-Developer-Challenge/Classemates/jasmina-cujes/mico.html)
