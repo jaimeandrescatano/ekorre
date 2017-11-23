@@ -1,5 +1,8 @@
 var x = 60;
+
+
 function t() {
+
     if (x === 50) {
         console.log("Orbiter transfers from ground to internal power");
     } else if (x === 31) {
@@ -20,4 +23,5 @@ function t() {
     setTimeout(t, 1000);
     }
 }
-t();
+
+setTimeout(t, 1000);
