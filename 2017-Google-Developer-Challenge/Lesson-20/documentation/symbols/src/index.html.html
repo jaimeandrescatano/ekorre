@@ -1,0 +1,38 @@
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"> <style>
+	.KEYW {color: #933;}
+	.COMM {color: #bbb; font-style: italic;}
+	.NUMB {color: #393;}
+	.STRN {color: #393;}
+	.REGX {color: #339;}
+	.line {border-right: 1px dotted #666; color: #666; font-style: normal;}
+	</style></head><body><pre><span class='line'>  1</span> <span class="PUNC">&lt;</span><span class="PUNC">!</span><span class="NAME">DOCTYPE</span><span class="WHIT"> </span><span class="NAME">html</span><span class="PUNC">></span><span class="WHIT">
+<span class='line'>  2</span> </span><span class="PUNC">&lt;</span><span class="NAME">html</span><span class="PUNC">></span><span class="WHIT">
+<span class='line'>  3</span> </span><span class="PUNC">&lt;</span><span class="NAME">head</span><span class="PUNC">></span><span class="WHIT">
+<span class='line'>  4</span> </span><span class="WHIT">    </span><span class="PUNC">&lt;</span><span class="NAME">meta</span><span class="WHIT"> </span><span class="NAME">charset</span><span class="PUNC">=</span><span class="STRN">"UTF-8"</span><span class="PUNC">></span><span class="WHIT">
+<span class='line'>  5</span> </span><span class="WHIT">    </span><span class="PUNC">&lt;</span><span class="NAME">link</span><span class="WHIT"> </span><span class="NAME">rel</span><span class="PUNC">=</span><span class="STRN">"shortcut icon"</span><span class="WHIT"> </span><span class="NAME">href</span><span class="PUNC">=</span><span class="STRN">"favicon.ico"</span><span class="WHIT"> </span><span class="NAME">type</span><span class="PUNC">=</span><span class="STRN">"image/x-icon"</span><span class="PUNC">></span><span class="WHIT">
+<span class='line'>  6</span> </span><span class="WHIT">    </span><span class="PUNC">&lt;</span><span class="NAME">title</span><span class="PUNC">></span><span class="NAME">Pixel</span><span class="WHIT"> </span><span class="NAME">Art</span><span class="WHIT"> </span><span class="NAME">Maker</span><span class="PUNC">!</span><span class="PUNC">&lt;</span><span class="REGX">/title>
+<span class='line'>  7</span>     &lt;script src="http:/</span><span class="REGX">/ajax.googleapis.com/</span><span class="NAME">ajax</span><span class="PUNC">/</span><span class="NAME">libs</span><span class="PUNC">/</span><span class="NAME">jquery</span><span class="PUNC">/</span><span class="NUMB">1.11</span><span class="PUNC">.</span><span class="NUMB">1</span><span class="PUNC">/</span><span class="NAME">jquery.min.js</span><span class="STRN">">&lt;/script>
+<span class='line'>  8</span>     &lt;script src="</span><span class="NAME">designs.js</span><span class="STRN">">&lt;/script>
+<span class='line'>  9</span>     &lt;link rel="</span><span class="NAME">stylesheet</span><span class="STRN">" href="</span><span class="NAME">https</span><span class="PUNC">:</span><span class="COMM">//fonts.googleapis.com/css?family=Monoton"></span><span class="WHIT">
+<span class='line'> 10</span> </span><span class="WHIT">    </span><span class="PUNC">&lt;</span><span class="NAME">link</span><span class="WHIT"> </span><span class="NAME">rel</span><span class="PUNC">=</span><span class="STRN">"stylesheet"</span><span class="WHIT"> </span><span class="NAME">href</span><span class="PUNC">=</span><span class="STRN">"styles.css"</span><span class="PUNC">></span><span class="WHIT">
+<span class='line'> 11</span> </span><span class="PUNC">&lt;</span><span class="REGX">/head>
+<span class='line'> 12</span> &lt;body>
+<span class='line'> 13</span>     &lt;h1>Lab: Pixel Art Maker&lt;/</span><span class="NAME">h1</span><span class="PUNC">></span><span class="WHIT">
+<span class='line'> 14</span> 
+<span class='line'> 15</span> </span><span class="WHIT">    </span><span class="PUNC">&lt;</span><span class="NAME">h2</span><span class="PUNC">></span><span class="NAME">Choose</span><span class="WHIT"> </span><span class="NAME">Grid</span><span class="WHIT"> </span><span class="NAME">Size</span><span class="PUNC">&lt;</span><span class="REGX">/h2>
+<span class='line'> 16</span>     &lt;form id="sizePicker">
+<span class='line'> 17</span>         Grid Height:
+<span class='line'> 18</span>         &lt;input type="number" id="input_height" name="height" min="1" value="1">
+<span class='line'> 19</span>         Grid Width:
+<span class='line'> 20</span>         &lt;input type="number" id="input_width" name="width" min="1" value="1">
+<span class='line'> 21</span>         &lt;input type="submit">
+<span class='line'> 22</span>     &lt;/</span><span class="NAME">form</span><span class="PUNC">></span><span class="WHIT">
+<span class='line'> 23</span> 
+<span class='line'> 24</span> </span><span class="WHIT">    </span><span class="PUNC">&lt;</span><span class="NAME">h2</span><span class="PUNC">></span><span class="NAME">Pick</span><span class="WHIT"> </span><span class="NAME">A</span><span class="WHIT"> </span><span class="NAME">Color</span><span class="PUNC">&lt;</span><span class="REGX">/h2>
+<span class='line'> 25</span>     &lt;input type="color" id="colorPicker">
+<span class='line'> 26</span> 
+<span class='line'> 27</span>     &lt;h2>Design Canvas&lt;/</span><span class="NAME">h2</span><span class="PUNC">></span><span class="WHIT">
+<span class='line'> 28</span> </span><span class="WHIT">    </span><span class="PUNC">&lt;</span><span class="NAME">table</span><span class="WHIT"> </span><span class="NAME">id</span><span class="PUNC">=</span><span class="STRN">"pixel_canvas"</span><span class="PUNC">></span><span class="PUNC">&lt;</span><span class="REGX">/table>
+<span class='line'> 29</span> 
+<span class='line'> 30</span> &lt;/</span><span class="NAME">body</span><span class="PUNC">></span><span class="WHIT">
+<span class='line'> 31</span> </span><span class="PUNC">&lt;</span><span class="TOKN"></span></pre></body></html>

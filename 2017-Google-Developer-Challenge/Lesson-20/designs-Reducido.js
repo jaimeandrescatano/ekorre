@@ -1,7 +1,10 @@
-/*
-    Este programa tiene el codigo que hice la primera vez,
-    mas corto que el que se deja para presentar puesto que
-    el de presentar tiene que cumplir con algunos requisitos
+/**
+    @fileOverview <strong>My testing program </strong>
+    <p>This program has the code used to perform the tests
+    to produce the final version of the code, the <strong>Udacity mentor</strong>
+    that is reading this must go to the <strong>designs.js</strong>
+    file.</p>
+    @author <a href="mailto:jaimeandrescatano@gmail.com">Jaime Andres Catano</a>
  */
 
 /* Funcion generadora de la tabla */
