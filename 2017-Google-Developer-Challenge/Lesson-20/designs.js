@@ -7,7 +7,7 @@
 /**
  * @description Table generating function
  * @param  evt
- * @return  nothing
+ * @returns  nothing
  */
 
 function makeGrid (evt) {
@@ -52,7 +52,7 @@ function makeGrid (evt) {
 
 /** @description  Getting the selected color
 * @param  evt
-* @return  nothing
+* @returns  nothing
 */
 function chooseColor (evt) {
     /* Color value from color picker */
@@ -67,7 +67,7 @@ function chooseColor (evt) {
 
 /** @description  Starting function
 * @param  nothing
-* @return  nothing
+* @returns  nothing
 */
 function startProgram () {
     /* makeGrid function activated when the user uses the "submit button"*/
