@@ -6,6 +6,8 @@ Please go to this link in order to render the exercise:
 
 [View exercise jsdoc documentation here!](http://github.ekorre.org/2017-Google-Developer-Challenge/Lesson-20/documentation/files.html)
 
+[You can access the file in **codepen.io** here!](https://codepen.io/jaimeandrescatano/pen/bYjreP)
+
 **Jaime Andres**
 
 :see_no_evil:
