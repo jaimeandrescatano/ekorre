@@ -78,6 +78,6 @@ function startProgram () {
 }
 
 /** @description  Set the startProgram as the initial function of jQuery object
-    TODO Request feedback from classmates and mentors
+    TODO Request feedback from classmates and mentors.
 */
 $(startProgram);
