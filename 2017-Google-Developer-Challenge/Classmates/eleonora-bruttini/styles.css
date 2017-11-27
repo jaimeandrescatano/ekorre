@@ -1,0 +1,92 @@
+/* For my project, I wanted to create a trading card inspired by
+ the popular '90s trading card game Magic: The Gathering */
+ /* The id "card" sets the width of the card */
+#card {
+  background: radial-gradient(circle, #fdbb2d, #22c1c3, #001917);
+  margin: auto;
+  padding-top: 10px;
+  width: 333px;
+}
+
+/* I wanted to recreate the look of very special trading cards:
+the legendary ones. For this purpose, I needed a foil-like border. Thus,
+I chose to use the property border-image to use a golden foil for the border.*/
+
+.card-content {
+  border: 13px solid transparent;
+  border-image: url(https://www.colourbox.com/preview/4545287-golden-foil.jpg) 30 round;
+  box-shadow: 10px 10px 20px;
+}
+
+/* Magic: The Gathering cards display the name of the card into elliptical labels.
+To recreate the elliptical look, I experimented with the border-radius until I found the value I needed: 20px/50px. Additionally, I added the property box-shadow to provide a 3D look. */
+
+/* Header */
+
+h3,
+h4 {
+  background-color: #91d6b7;
+  border: 3px solid;
+  border-radius: 20px/50px;
+  box-shadow: 0 0 10px;
+  margin: 0 0 1px;
+  padding: 0 0 2px 7px;
+}
+
+/* I used the padding to recreate a sort of border inside the border, so as to give depth to the image */
+
+.image-box {
+  border: 3px solid;
+  box-shadow: 0 0 10px;
+  display: block;
+  margin: auto;
+  padding: 1px;
+}
+
+
+/* Content */
+
+.info-box {
+  background-color: #fbf7d5;
+  border: 3px solid;
+  border-radius: 5px;
+  box-shadow: 0 0 10px;
+  padding: 7px 7px 0 7px;
+  text-align: justify;
+}
+
+
+.quote {
+  font-size: 15px;
+  font-style: italic;
+}
+
+/* Since I did not want a bullet list, I applied the list-style-type: none property */
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.list-item-title {
+  font-weight: bold;
+}
+
+
+.description{
+  font-size: 15px;
+}
+
+/* I added this class to provide credits to the amazing painter Ciruelo.
+Being a creative writer, I provided credits for my text and fantasy creature as well :) */
+
+/* Footer */
+
+.credits {
+  color: #001917;
+  font-size: 10px;
+  font-style: italic;
+  margin: 0 7px 10px 0;
+}
