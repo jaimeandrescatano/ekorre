@@ -1,0 +1,18 @@
+.div_texto-programas {
+    /* border: 1px solid blue; */
+    float:left;
+    width:720px;
+    background-color: transparent;
+    color: #454545;
+    font-size: 1.5em;
+    line-height: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+    display:inline-block;
+}
+
+.div_texto-largo {
+    cursor: pointer;
+    height: 300px;
+    overflow: hidden;
+}
