@@ -12,7 +12,7 @@ You can find details about the scripts here: [ekorre github page](http://github.
 
 Any question or comment is welcome!
 
-**Jaime Andres** :smiley:
+**Jaime Andres**   `:smiley:`
 
 **Site content**
 [Classmates](2017-Google-Developer-Challenge)
