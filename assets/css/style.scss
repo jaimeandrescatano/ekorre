@@ -4,9 +4,13 @@
 @import 'jekyll-theme-cayman';
 
 .page-header {
-    height: 50px;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
 }
 
 .project-name {
-    margin: 10px;
+    margin: 0px;
 }
