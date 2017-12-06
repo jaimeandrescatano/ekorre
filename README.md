@@ -4,7 +4,7 @@
 
 Here you will find some scripts developed for different tasks during the development process of programming under Linux in different programming languages.
 
-Some of the programs are written with spanish comments, so, if you need more information just send me a message. 
+Some of the programs are written with spanish comments, so, if you need more information just send me a message.
 
 Feel free to use this scrips to help in the developing of your projects.
 
@@ -12,18 +12,18 @@ Any question or comment is welcome!
 
 **Jaime Andres**
 
-# [](#header-2)Content
+## [](#header-2)Content
 
-# [](#header-3)Web
+### [](#header-3)Web
 
 * [2017 Google Developer Challenge](2017-Google-Developer-Challenge)
 * [2017 Responsive Web Design  Fundamentals](2017-Responsive-Web-Design-Fundamentals)
 
-# [](#header-3)Linux (bash script + python)
+### [](#header-3)Linux (bash script + python)
 
 * [Alerta de Bateria](https://github.com/jaimeandrescatano/ekorre/tree/master/AlertaBateria)
 
-# [](#header-3)Python
+### [](#header-3)Python
 
 * [Algebra Lineal Robotica](https://github.com/jaimeandrescatano/ekorre/tree/master/AlgebraLinealRobotica)
 * [Control de Bases de Datos](https://github.com/jaimeandrescatano/ekorre/tree/master/ControlDeBasesDeDatos)
