@@ -12,16 +12,16 @@ Any question or comment is welcome!
 
 # [](#header-2)Content
 
-# [](#header-2)Web
+# [](#header-3)Web
 
 * [2017 Google Developer Challenge](2017-Google-Developer-Challenge)
 * [2017 Responsive Web Design  Fundamentals](2017-Responsive-Web-Design-Fundamentals)
 
-# [](#header-2)Linux (bash script + python)
+# [](#header-3)Linux (bash script + python)
 
 * [Alerta de Bateria](https://github.com/jaimeandrescatano/ekorre/tree/master/AlertaBateria)
 
-# [](#header-2)Python
+# [](#header-3)Python
 
 * [Algebra Lineal Robotica](https://github.com/jaimeandrescatano/ekorre/tree/master/AlgebraLinealRobotica)
 * [Control de Bases de Datos](https://github.com/jaimeandrescatano/ekorre/tree/master/ControlDeBasesDeDatos)
