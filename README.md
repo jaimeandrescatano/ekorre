@@ -12,12 +12,19 @@ You can find details about the scripts here: [ekorre github page](http://github.
 
 Any question or comment is welcome!
 
-**Jaime Andres**   `:smiley:`
+**Jaime Andres**
 
 # [](#header-2)Content
 
-* [Classmates](2017-Google-Developer-Challenge)
-* [Classmates](2017-Google-Developer-Challenge/Classmates)
-* [Classmates](2017-Google-Developer-Challenge/Classmates/me)
-* [Classmates](2017-Google-Developer-Challenge/Classmates/README.md)
-* [test](tmp/test.html)
+* [2017 Google Developer Challenge](2017-Google-Developer-Challenge)
+* [2017 Responsive Web Design  Fundamentals](2017-Responsive-Web-Design-Fundamentals)
+* [Alerta de Bateria](AlertaBateria)
+* [Algebra Lineal Robotica](AlgebraLinealRobotica)
+* [Control de Bases de Datos](ControlDeBasesDeDatos)
+* [Density Fitting](DensityFitting)
+* [Generar PDF con Latex](GenerarPDFconLatex)
+* [Generar PDF con ReportLab](GenerarPDFconReportLab)
+* [Hello World OOP](HelloWorld-OOP)
+* [Others](Others)
+* [Pickle](Pickle)
+* [StockMarket](StockMarket)
