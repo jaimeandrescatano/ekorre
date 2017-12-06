@@ -8,3 +8,5 @@ Here you will find some code developed
 :blush:
 
 **2017-12-05** [Text Read More!](http://github.ekorre.org/2017-Google-Developer-Challenge/Classmates/me/text-read-more.html)
+
+**2017-12-06** [Html from libreoffice!](http://github.ekorre.org/2017-Google-Developer-Challenge/Classmates/me/htmlfromlibreoffice.html)
