@@ -4,11 +4,7 @@
 
 Here you will find some scripts developed for different tasks during the development process of programming under Linux in different programming languages.
 
-This repository is a way to give back to the world all the knowledge received from different people on websites like [GitHub](https://github.com), [stackoverflow](https://stackoverflow.com/) among others.
-
 Feel free to use this scrips to help in the developing of your projects.
-
-You can find details about the scripts here: [ekorre github page](http://github.ekorre.org/)
 
 Any question or comment is welcome!
 
@@ -17,14 +13,16 @@ Any question or comment is welcome!
 # [](#header-2)Content
 
 * [2017 Google Developer Challenge](2017-Google-Developer-Challenge)
+    * # [](#header-2)Content
+
 * [2017 Responsive Web Design  Fundamentals](2017-Responsive-Web-Design-Fundamentals)
-* [Alerta de Bateria](AlertaBateria)
-* [Algebra Lineal Robotica](AlgebraLinealRobotica)
-* [Control de Bases de Datos](ControlDeBasesDeDatos)
-* [Density Fitting](DensityFitting)
-* [Generar PDF con Latex](GenerarPDFconLatex)
-* [Generar PDF con ReportLab](GenerarPDFconReportLab)
-* [Hello World OOP](HelloWorld-OOP)
-* [Others](Others)
-* [Pickle](Pickle)
-* [StockMarket](StockMarket)
+* [Alerta de Bateria](https://github.com/jaimeandrescatano/ekorre/tree/master/AlertaBateria)
+* [Algebra Lineal Robotica](https://github.com/jaimeandrescatano/ekorre/tree/master/AlgebraLinealRobotica)
+* [Control de Bases de Datos](https://github.com/jaimeandrescatano/ekorre/tree/master/ControlDeBasesDeDatos)
+* [Density Fitting](https://github.com/jaimeandrescatano/ekorre/tree/master/DensityFitting)
+* [Generar PDF con Latex](https://github.com/jaimeandrescatano/ekorre/tree/master/GenerarPDFconLatex)
+* [Generar PDF con ReportLab](https://github.com/jaimeandrescatano/ekorre/tree/master/GenerarPDFconReportLab)
+* [Hello World OOP](https://github.com/jaimeandrescatano/ekorre/tree/master/HelloWorld-OOP)
+* [Others](https://github.com/jaimeandrescatano/ekorre/tree/master/Others)
+* [Pickle](https://github.com/jaimeandrescatano/ekorre/tree/master/Pickle)
+* [StockMarket](https://github.com/jaimeandrescatano/ekorre/tree/master/StockMarket)
