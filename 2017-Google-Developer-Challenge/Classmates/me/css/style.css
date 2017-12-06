@@ -15,4 +15,5 @@
     cursor: pointer;
     height: 300px;
     overflow: hidden;
+    transition: all 5s linear;
 }
