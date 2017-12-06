@@ -4,6 +4,8 @@
 
 Here you will find some scripts developed for different tasks during the development process of programming under Linux in different programming languages.
 
+Some of the programs are written with spanish comments, so, if you need more information just send me a message. 
+
 Feel free to use this scrips to help in the developing of your projects.
 
 Any question or comment is welcome!
