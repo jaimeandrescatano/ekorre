@@ -72,6 +72,14 @@ function startProgram () {
     /* makeGrid function activated when the user uses the 'submit button'*/
     $('#sizePicker').on('submit', makeGrid);
 
+    /* Color value from color picker */
+    chosedColor = $('#colorPicker').val();
+
+    /* Asign the color to the cell */
+    $('#pixel_canvas').on('click', 'td', function() {
+        $(this).css('background-color', chosedColor );
+    });
+
     /* Color picker function */
     $('#colorPicker').on('change', chooseColor);
     return;

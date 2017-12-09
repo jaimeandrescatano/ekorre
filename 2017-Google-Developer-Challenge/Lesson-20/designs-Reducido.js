@@ -57,6 +57,13 @@ function elegirColor (evt) {
 function miPerrito () {
     /* Obtengo los valores de la cantidad de filas y de columnas de la tabla */
     $("#sizePicker").on("submit", makeGrid);
+
+    /* Para que inicialmente el color de inicio sea usado */
+    chosedColor = $('#colorPicker').val();
+    $('#pixel_canvas').on('click', 'td', function() {
+        $(this).css('background-color', chosedColor );
+    });
+
     $("#colorPicker").on("change", elegirColor);
 }
 
