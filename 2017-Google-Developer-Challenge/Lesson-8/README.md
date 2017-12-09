@@ -8,4 +8,6 @@ Please go to this link in order to render the exercise:
 
 **Jaime Andres**
 
-:see_no_evil:
+### [](#header-3)Changed
+
+* 2017-12-09 Add a class to the h3 tag
