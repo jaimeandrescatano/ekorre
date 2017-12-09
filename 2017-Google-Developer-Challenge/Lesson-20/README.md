@@ -10,4 +10,6 @@ Please go to this link in order to render the exercise:
 
 **Jaime Andres**
 
-:see_no_evil:
+### [](#header-3)Changed
+
+* 2017-12-09 Add inicial value to the color picker when the user make the grid, there is no need to choose the color to start painting

@@ -6,6 +6,8 @@ Please go to this link in order to render the exercise:
 
 [You can access the file in **codepen.io** here!](https://codepen.io/jaimeandrescatano/pen/yPqova)
 
-**Jaime Andres**
+### [](#header-3)Changed
 
-:see_no_evil:
+* 2017-12-09 Change figure tag for img tag according to [comment of one of the mentors](https://discussions.udacity.com/t/share-your-project-mentor-feedback/412844/657)
+
+**Jaime Andres**
