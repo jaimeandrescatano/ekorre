@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# 20171210
+# Simple calculator
+#
+
+# Verify if the user has given a math expression
+if [ "$#" -eq "0" ]; then
+    printf "\n    \e[1mEnter a math expression like: \e[0m\e[96m1+2\n\n"
+else
+    clear
+    printf "\n    Answer:\n\n"
+
+    c=$(($1))
+    echo -e "        $1 = $c\n"
+fi
