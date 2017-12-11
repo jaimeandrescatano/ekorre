@@ -16,4 +16,4 @@ Any comment is welcome through the course forum system.
 
 ### [](#header-3)Lessons
 
-* [Lesson 2 - Project part 1](https://github.com/jaimeandrescatano/ekorre/tree/master/2017-Responsive-Web-Design-Fundamentals/Lesson-2)
+* [Lesson 2 - Project part 1](2017-Responsive-Web-Design-Fundamentals/Lesson-2)
