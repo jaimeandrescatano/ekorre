@@ -12,6 +12,10 @@ Any question or comment is welcome!
 
 **Jaime Andres**
 
+## [](#header-2)Repositories
+* [Github](https://github.com/jaimeandrescatano/ekorre)
+* [Codepen](https://codepen.io/jaimeandrescatano/)
+
 ## [](#header-2)Content
 
 ### [](#header-3)Web
