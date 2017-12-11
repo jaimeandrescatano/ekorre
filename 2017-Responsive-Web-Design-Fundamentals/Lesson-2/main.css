@@ -147,7 +147,7 @@ main {
   float: left;
   width: 100%;
   position: relative;
-  background-image: url("./images/dog.jpg");
+  background-image: url("http://www.ekorre.org/images/google-course-dog.jpg");
   background-size: cover;
   height: 300px;
 }
