@@ -1,0 +1,68 @@
+/* add your CSS here */
+
+ul {
+  list-style-type: none;
+  border-bottom: 1px solid grey;
+  border-width: 5px;
+  text-align: justify;
+  border-style: inset;
+  color: LightGrey;
+  padding: 5px;
+  margin: 10px;
+}
+
+.interesting_fact {
+  font-style: italic;
+  border-bottom: 1px solid grey;
+  border-width: 5px;
+  border-style: inset;
+  text-align: justify;
+  color: AliceBlue;
+  margin: 10px;
+  padding:5px;
+}
+
+.image {
+  border-bottom: 1px solid grey;
+  border-width: 5px;
+  border-style: inset;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+li span {
+  font-weight: bold;
+  text-align: justify;
+  color: black;
+}
+
+.card {
+  max-width: 350px;
+  max-height: 750px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu3wSU79bRlJTQESfNHYy4ZhXKcLX-b4y1jVH8mldcKsSG8iY5");
+  border-style: inset;
+  border-color: DarkGrey;
+  border-bottom: 6px solid black;
+  box-shadow: 5px 10px black;
+  border-width: 5px;
+  padding: 5px;
+}
+
+.name {
+  border-style: inset;
+  border-bottom: 6px solid black;
+  border-width: 5px;
+  color: LightSkyBlue;
+  text-align: justify;
+  padding: 5px;
+}
+
+.paragraph {
+  border-bottom: 1px solid grey;
+  border-width: 5px;
+  color: #FFF176;
+  text-align: justify;
+  padding: 5px;
+  margin: 10px;
+}

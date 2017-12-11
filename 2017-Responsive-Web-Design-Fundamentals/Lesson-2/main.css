@@ -109,6 +109,7 @@ ul {
 .nav a {
   text-decoration: none;
   color: #616161;
+  padding: 1.5em inherit;
 }
 
 .nav a:hover {
@@ -176,7 +177,7 @@ main {
   width: 100%;
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
-  padding: 1em;
+  padding: 1.5em inherit;
 }
 
 .news__title {
@@ -345,6 +346,7 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
+  padding: 1.5em inherit;
 }
 
 .snippet__title a:hover,
@@ -373,4 +375,5 @@ footer li {
 footer a {
   text-decoration: none;
   color: #333;
+  padding: 1.5em;
 }
