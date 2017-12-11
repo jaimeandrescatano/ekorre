@@ -1,11 +1,9 @@
-# Lesson 3.5!
+# Lesson 3.6!
 
 Please go to this link in order to render the exercise:
 
-[Render exercise!](http://github.ekorre.org/2017-Google-Developer-Challenge/Lesson-3/5/headers.html)
+[Render exercise!](http://github.ekorre.org/2017-Responsive-Web-Design-Fundamentals/Lesson-3/6/index.html)
 
-[You can access the file in **codepen.io** here!](https://codepen.io/jaimeandrescatano/pen/XzBaqa)
+[You can access the file in **codepen.io** here!](https://codepen.io/jaimeandrescatano/pen/BJBvBY)
 
 **Jaime Andres**
-
-:see_no_evil:
