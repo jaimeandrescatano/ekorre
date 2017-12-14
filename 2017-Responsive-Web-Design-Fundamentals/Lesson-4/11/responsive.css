@@ -1,0 +1,67 @@
+<style type="text/css">
+  /*
+  These are the responsive styles. Throw some breakpoints in here!
+  */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 450px) {
+    .dark_blue {
+        width:100%;
+        color: #0000ff;
+    }
+    .light_blue {
+        width:50%;
+        color: #36cfff;
+    }
+    .green {
+        width:50%;
+        color: #00ff00;
+    }
+    .red {
+        width:100%;
+        color: #ff0000;
+    }
+    .orange {
+        width:100%;
+        color: rgb(255, 200, 57);
+    }
+  }
+
+  @media screen and (min-width: 550px) {
+    .dark_blue {
+        width:100%;
+        color: #0000ff;
+    }
+    .light_blue {
+        width:50%;
+        color: #36cfff;
+    }
+    .green {
+        width:50%;
+        color: #00ff00;
+    }
+    .red {
+        width:33%;
+        color: #ff0000;
+    }
+    .orange {
+        width:67%;
+        color: rgb(255, 200, 57);
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+</style>
