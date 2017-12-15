@@ -7,4 +7,4 @@ Here you can find code according to our conversations
 
 :blush:
 
-**2017-11-19** [Render exercise!](http://github.ekorre.org/2017-Google-Developer-Challenge/Classmates/jasmina-cujes/mico.html)
+**2017-12-15** [View video!](http://github.ekorre.org/2017-Google-Developer-Challenge/Classmates/ritabrito/video.mp4)
