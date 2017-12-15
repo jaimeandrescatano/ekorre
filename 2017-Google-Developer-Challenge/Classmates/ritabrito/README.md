@@ -1,4 +1,4 @@
-# [jasmina.cujes](https://discussions.udacity.com/u/jasmina.cujes)
+# ritabrito - (slack user: U81AKBR8X)
 
 Here you can find code according to our conversations
 
