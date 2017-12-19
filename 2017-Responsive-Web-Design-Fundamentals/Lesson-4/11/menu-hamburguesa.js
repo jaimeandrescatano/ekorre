@@ -5,10 +5,8 @@ function presentarMensaje() {
     alert("hola pepe!");
 }
 
-barraMenu.addEventListener("click", function (e) {
+barraMenu.addEventListener("click", function () {
 
-    // Make the coloring happen only to the clicked element by taking the target of the event.
-
-    e.target.presentarMensaje();
+    presentarMensaje();
 
 });
