@@ -16,3 +16,5 @@ Here you will find some code developed
 **2017-12-06** [Base 64 encoded image 3 comparison !](http://github.ekorre.org/2017-Google-Developer-Challenge/Classmates/me/base64encoded3.html)
 
 **2017-12-06** [Base 64 encoded image 4 comparison !](http://github.ekorre.org/2017-Google-Developer-Challenge/Classmates/me/base64encoded4.html)
+
+**2017-12-18** [DreamMaker.py](http://github.ekorre.org/2017-Google-Developer-Challenge/Classmates/me/dreammaker.py)

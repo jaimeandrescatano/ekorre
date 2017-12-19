@@ -1,0 +1,239 @@
+@media screen and (min-width: 1100px) {
+    /* Elementos primarios*/
+    body, html {
+      margin: 0 auto;
+      padding: 0;
+      max-width: 1400px;
+      height: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      margin: 0;
+    }
+
+    header,
+    nav,
+    footer,
+    section,
+    article,
+    div {
+        box-sizing: border-box;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    main {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        width: 90%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        height: 50px;
+        padding: 10px;
+
+    }
+
+    footer li {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    footer a {
+      padding: 0em;
+    }
+
+    /* Header */
+    .header {
+        width: 90%;
+        min-height: 56px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header__inner {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .header__logo {
+      height: 72px;
+      margin-right: 1em;
+      margin-left: 1em;
+      vertical-align: top;
+      margin-top: 12px;
+    }
+
+    .header__title {
+      margin: 0.5em 0.25em;
+      display: inline-block;
+    }
+
+    /* Navigation bar */
+    .nav {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .nav__list {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav__item {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 24%;
+      text-align: center;
+      padding: 24px;
+    }
+
+    .nav a {
+      padding: 1.5em;
+    }
+
+
+
+    /* Hero */
+    .hero {
+        width: 100%;
+        position: relative;
+        height: 300px;
+    }
+
+    .hero article {
+      box-sizing: border-box;
+      position: absolute;
+      bottom: 0;
+      height: 40%;
+      width: 100%;
+      padding: 1em;
+    }
+
+    /* News */
+    .news {
+        order: 1;
+        width: 40%;
+    }
+    .news2 {
+        order: 4;
+        width: 100%;
+    }
+     .news__more {
+       float: right;
+     }
+
+    .top-news {
+      height: 300px;
+      padding: 1em;
+    }
+
+    .top-news__item {
+      padding: 1em 0;
+    }
+
+    /* Recent News */
+    .recent-news {
+      clear: both;
+      padding: 1em;
+    }
+
+    /* Sports scores */
+    .scores {
+        order:3;
+        width: 30%;
+        padding-top: 1em;
+    }
+
+    .scores__table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .scores__table th,
+    .scores__table td {
+      padding: 1em;
+    }
+
+    .scores__table td:nth-child(3) {
+      text-align: right;
+    }
+
+    .scores__table td:nth-child(2),
+    .scores__table td:nth-child(5) {
+      text-align: center;
+    }
+
+    /* Weather */
+
+    .weather {
+        order: 2;
+        width: 30%;
+        padding: 1em;
+    }
+
+    .weather__location {
+      display: block;
+    }
+
+    .weather__desc {
+      display: block;
+    }
+
+    .weather__today {
+      width: 60%;
+      vertical-align: middle;
+    }
+
+    .weather__today__image {
+      vertical-align: middle
+    }
+
+    .weather__today__deg {
+      display: inline;
+    }
+
+    .weather__next__item {
+      display: inline-block;
+      width: 20%;
+      text-align: center;
+    }
+
+    .weather__next__item span {
+      display: block;
+    }
+
+    .weather__next__image {
+      width: 100%;
+    }
+
+    /* snippet */
+    .snippet {
+      clear: both;
+      margin: 24px 0;
+    }
+
+    .snippet__thumbnail {
+      width: 100px;
+      float: left;
+      margin-right: 1em;
+    }
+}
