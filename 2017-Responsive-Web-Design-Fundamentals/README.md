@@ -19,3 +19,5 @@ Any comment is welcome through the course forum system.
 * [Lesson 2 - Project part 1](https://github.com/jaimeandrescatano/ekorre/tree/master/2017-Responsive-Web-Design-Fundamentals/Lesson-2)
 
 * [Lesson 3 ](https://github.com/jaimeandrescatano/ekorre/tree/master/2017-Responsive-Web-Design-Fundamentals/Lesson-3)
+
+* [Lesson 5 - Final Project ](https://github.com/jaimeandrescatano/ekorre/tree/master/2017-Responsive-Web-Design-Fundamentals/Lesson-5)

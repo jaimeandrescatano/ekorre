@@ -1,4 +1,4 @@
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 553px) {
     /* Elementos primarios*/
     body {
         font-family: Roboto;
@@ -57,6 +57,18 @@
     .nav a:hover {
       text-decoration: underline;
       color: #212121;
+    }
+
+    /* Menu hamburguesa */
+    .myNav {
+        /*border: 1px solid blue;*/
+        display: none;
+    }
+
+    .menu-lateral {
+        /*border: 1px solid white;*/
+        /*background-color: rgba(0, 0, 0, 0.7);*/
+        display: none;
     }
 
     /* Hero */

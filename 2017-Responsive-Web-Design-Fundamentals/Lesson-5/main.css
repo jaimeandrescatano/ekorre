@@ -1,5 +1,4 @@
-body, 
-html {
+body, html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -8,24 +7,16 @@ html {
 
 body {
   font-family: Roboto;
-  font-size: 12px;
+  font-size: 16px;
+  line-height: 1.2em;
   color: #424242;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  margin: 0; 
+h1, h2, h3, h4, h5 {
+  margin: 0;
 }
 
-header,
-nav, 
-footer, 
-section, 
-article, 
-div {
+header, nav, footer, section, article, div {
   box-sizing: border-box;
 }
 
@@ -39,7 +30,7 @@ ul {
 /*
  *
  * Common
- * 
+ *
  */
 
 .news__more {
@@ -155,7 +146,7 @@ main {
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
-  height: 300px;
+  height: 500px;
 }
 
 .hero article {
@@ -178,9 +169,10 @@ main {
  */
 
 .top-news {
-  height: 300px;
+  max-height: 500px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
+  width: 100%;
 }
 
 .news__title {
@@ -207,6 +199,7 @@ main {
 .top-news__item a {
   text-decoration: none;
   color: #666;
+  padding: 1.5em inherit;
 }
 
 .top-news__item a:hover,
@@ -221,8 +214,15 @@ main {
  *
  */
 
+/*.tableContainer {
+    width: 100%;
+    overflow-x: auto;
+}*/
+
 .scores {
   padding-top: 1em;
+  flex-grow: 1;
+  overflow: scroll;
 }
 
 .scores__table {
@@ -232,7 +232,7 @@ main {
 
 .scores__table th,
 .scores__table td {
-  padding: 1em; 
+  padding: 1em;
 }
 
 .scores__table th {
@@ -269,6 +269,7 @@ main {
  */
 
 .weather {
+  flex-grow: 1;
   padding: 1em;
 }
 
@@ -323,6 +324,7 @@ main {
  */
 
 .recent-news {
+  flex-grow: 1;
   clear: both;
   padding: 1em;
 }
@@ -330,6 +332,8 @@ main {
 .snippet {
   clear: both;
   margin: 24px 0;
+  max-width: 450px; /* Para el tamano de font y alto de linea max 65 char */
+  text-align: justify;
 }
 
 .snippet__thumbnail {
@@ -345,6 +349,7 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
+  padding: 1.5em inherit;
 }
 
 .snippet__title a:hover,
@@ -375,3 +380,5 @@ footer a {
   color: #333;
   padding: 1.5em;
 }
+
+/*art party cronut scenester. Organic raw denim Vice keffiyeh */
