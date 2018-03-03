@@ -1,10 +1,8 @@
-# Lesson 3.5!
+# Part 1 - Web foundations!
 
 Please go to this link in order to render the exercise:
 
-[Render exercise!](http://github.ekorre.org/2017-Google-Developer-Challenge/Lesson-3/5/headers.html)
-
-[You can access the file in **codepen.io** here!](https://codepen.io/jaimeandrescatano/pen/XzBaqa)
+[Render exercise!](http://github.ekorre.org/2018-Front-End-Web-Developer-Nanodegree/Core-Curriculum/Part-1/part1.html)
 
 **Jaime Andres**
 
