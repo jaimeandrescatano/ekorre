@@ -1,0 +1,54 @@
+/* add your CSS here */
+.div_principal {
+    border: 1px solid #CECECE;
+    height: 470px;
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 9px;
+    padding-right: 10px;
+
+    -webkit-box-shadow: 4px 6px 2px 0px rgba(230,230,230,1);
+    -moz-box-shadow: 4px 6px 2px 0px rgba(230,230,230,1);
+    box-shadow: 4px 6px 2px 0px rgba(230,230,230,1);
+}
+
+.h_myH3Tag {
+    font-family: 'Lora', serif;
+    margin-top: 1px;
+    font-size: 18px;
+    margin-bottom: 18px;
+
+}
+
+.p_inicial {
+    font-style: italic;
+}
+
+.img_principal {
+    opacity: 1;
+    margin-bottom:9px;
+}
+
+.div_textos {
+    border-width:1px;
+    border-color:#CECECE;
+    border-style: solid;
+    overflow: hidden;
+    width: 278px;
+    font-size: 12px;
+    height: 219px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+}
+
+.ul_principal {
+    margin-top:14px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.span_ulprincipal {
+    font-weight: bold;
+}
