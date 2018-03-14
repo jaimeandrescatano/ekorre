@@ -8,7 +8,7 @@
 @media screen and (max-width: 810px) {
     /* Elementos primarios*/
     html {
-        background-color: rgba(255, 0, 0, 0.5);
+        /* background-color: rgba(255, 0, 0, 0.5); */
         margin: 0;
         padding: 0;
         min-width: 400px;
@@ -16,14 +16,14 @@
     }
 
     body {
-        background-color: rgba(249, 254, 214, 0.5);
+        /* background-color: rgba(249, 254, 214, 0.5); */
         margin: 0;
         padding: 0;
         width: 100%;
     }
 
     header {
-        background-color: rgba(0, 0, 255, 0.5);
+        /* background-color: rgba(0, 0, 255, 0.5); */
         margin-top: 1em;
         margin-bottom: 0;
         margin-right: 0;
@@ -35,7 +35,7 @@
     }
 
     main {
-        background-color: rgba(15, 65, 44, 0.5);
+        /* background-color: rgba(15, 65, 44, 0.5); */
         margin: 0;
         width: 100%;
         display: flex;
@@ -43,7 +43,7 @@
     }
 
     footer {
-        background-color: rgba(0, 255, 0, 0.5);
+        /* background-color: rgba(0, 255, 0, 0.5); */
         width: 100%;
         margin: 0;
     }
@@ -57,17 +57,17 @@
     }
 
     div {
-        background-color: rgba(177, 88, 94, 0.5);
+        /* background-color: rgba(177, 88, 94, 0.5); */
         margin: 0;
     }
 
     img {
-        background-color: rgba(177, 88, 94, 0.5);
+        /* background-color: rgba(177, 88, 94, 0.5); */
         margin: 0;
     }
 
     nav {
-        background-color: rgba(157, 40, 209, 0.5);
+        /* background-color: rgba(157, 40, 209, 0.5); */
         margin: 0;
     }
 
@@ -151,7 +151,7 @@
     }
 
     .div_titulo_nombre {
-        background-color: purple;
+        /* background-color: purple; */
         min-width:260px;
         height: 44px;
         padding-top: 8px;
@@ -177,7 +177,7 @@
     /* Section bloque 1 */
 
     .div_grid_container_1 {
-        background-color: #2196F3;
+        /* background-color: #2196F3; */
         width: 100%;
         display: grid;
         grid-template-columns: auto auto auto;
@@ -190,7 +190,7 @@
         grid-column-end: 2;
         grid-row-start:1;
         grid-row-end:2;
-        background-color: red;
+        /* background-color: red; */
         width: 70px;
         margin-left: auto;
     }
@@ -199,7 +199,7 @@
         grid-column-end: 3;
         grid-row-start:1;
         grid-row-end:2;
-        background-color: red;
+        /* background-color: red; */
         width: 70px;
         margin-left: auto;
         margin-right: auto;
@@ -209,7 +209,7 @@
         grid-column-end: 4;
         grid-row-start:1;
         grid-row-end:2;
-        background-color: red;
+        /* background-color: red; */
         width: 70px;
         margin-right: auto;
     }
@@ -254,7 +254,7 @@
     /* Section bloque 2 */
 
     .div_grid_container_2 {
-        background-color: green;
+        /* background-color: green; */
         width: 100%;
         display: grid;
         grid-template-columns: auto auto auto;
@@ -267,21 +267,21 @@
         grid-column-end: 4;
         grid-row-start:1;
         grid-row-end:2;
-        background-color: red;
+        /* background-color: red; */
     }
     .div_grid_container_2_item_2 {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start:2;
         grid-row-end:3;
-        background-color: red;
+        /* background-color: red; */
     }
     .div_grid_container_3_item_3 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start:2;
         grid-row-end:3;
-        background-color: red;
+        /* background-color: red; */
     }
     .div_grid_container_4_item_4 {
         grid-column-start: 3;
