@@ -1,0 +1,57 @@
+/**
+   Part 1
+   Project 2
+
+   Main css file
+
+*/
+@media screen and (min-width: 811px) {
+    body {
+        text-align: center;
+    }
+
+    /* Menu hamburguesa */
+    .nav_menu-hamburguesa {
+        display: none;
+    }
+
+    .div_menu-hamburguesa {
+        display: none;
+    }
+    /* END Menu hamburguesa */
+
+    /* Secciones */
+    .section_bloque0 {
+        background-color: rgba(200, 147, 25, 0.2);
+    }
+    .section_bloque1 {
+        background-color: rgba(177, 200, 82, 0.2);
+    }
+    .section_bloque2 {
+        background-color: rgba(41, 49, 200, 0.2);
+    }
+    /* END Secciones */
+
+    /* HEADER */
+
+    .div_titulo_nombre {
+        text-align: right;
+    }
+    .p_titulo_nombre_1 {
+        line-height: 1em;
+        font-size: 1.8em;
+    }
+
+    .p_titulo_nombre_2 {
+        line-height: 0.8em;
+        font-size: 0.8em;
+    }
+
+    /* END HEADER */
+
+    /* Section Bloque 2 */
+    .p_works {
+        color: black;
+    }
+    /* END Section Bloque 2 */
+}

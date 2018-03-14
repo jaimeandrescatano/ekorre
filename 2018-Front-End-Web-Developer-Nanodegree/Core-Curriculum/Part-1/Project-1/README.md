@@ -4,8 +4,10 @@ Please go to this link in order to render the exercise:
 
 [Render exercise!](http://github.ekorre.org/2018-Front-End-Web-Developer-Nanodegree/Core-Curriculum/Part-1/Project-1/card.html)
 
-## Notes:
+[Project rubric](https://review.udacity.com/#!/rubrics/151/view)
 
-The picture used in this project was taken from google images. 
+### Notes:
+
+* The picture used in this project was taken from google images.
 
 **Jaime Andres**
