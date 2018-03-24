@@ -1,0 +1,304 @@
+/**
+   Part 1
+   Project 2
+
+   Responsive css file
+
+*/
+@media screen and (max-width: 810px) {
+    /* Elementos primarios*/
+    html {
+        /* background-color: rgba(255, 0, 0, 0.5); */
+        margin: 0;
+        padding: 0;
+        min-width: 400px;
+        width: 100%;
+    }
+
+    body {
+        /* background-color: rgba(249, 254, 214, 0.5); */
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    header {
+        /* background-color: rgba(0, 0, 255, 0.5); */
+        margin-top: 1em;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        height: 4em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main {
+        /* background-color: rgba(15, 65, 44, 0.5); */
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        /* background-color: rgba(0, 255, 0, 0.5); */
+        width: 100%;
+        margin: 0;
+    }
+
+    section {
+        /* background-color: rgba(200, 150, 60, 0.5); */
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+    }
+
+    div {
+        /* background-color: rgba(177, 88, 94, 0.5); */
+        margin: 0;
+    }
+
+    img {
+        /* background-color: rgba(177, 88, 94, 0.5); */
+        margin: 0;
+    }
+
+    nav {
+        /* background-color: rgba(157, 40, 209, 0.5); */
+        margin: 0;
+    }
+
+    ul {
+        margin: 0;
+    }
+    p
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Logo principal de la pagina*/
+    .div_logo-principal {
+        width: 50px;
+        height: 60px;
+        padding: 0;
+    }
+    .img_logo-principal {
+        width: 40px;
+        /* display: block;
+        float: left;
+        position: relative; */
+        margin-top: 8px;
+    }
+    /* END Logo principal de la pagina*/
+
+    /* Menu hamburguesa */
+    .nav_menu-hamburguesa {
+        float: right;
+        right: 0px;
+        z-index: 10;
+        width: 60px;
+        height: 60px;
+        display: grid;
+    }
+
+    .icon-hamburger {
+        width: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .div_menu-hamburguesa {
+        width: 300px;
+        position: absolute;
+        margin-top: 60px;
+        z-index: 15;
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-1000px, 0);
+        transform: translate(-1000px, 0);
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+    }
+
+    .div_menu-hamburguesa.open {
+        -webkit-transform: translate(0px, 0);
+        transform: translate(0px, 0);
+    }
+
+    .div_menu-hamburguesa-item {
+        width: 100%;
+        height: 48px;
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    /* END Menu hamburguesa */
+
+    /* Header */
+    .img_logo {
+        width: inherit;
+        height: inherit;
+    }
+
+    .div_logo {
+        width:10%;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .div_titulo_nombre {
+        /* background-color: purple; */
+        min-width:260px;
+        height: 44px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 20px;
+        padding-left: 0px;
+        margin-left: auto;
+    }
+    /* END Header*/
+
+    /* Section bloque 0 */
+
+    .div_linea_top {
+        width: 100%;
+        height: 5px;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* END bloque 0*/
+
+    /* Section bloque 1 */
+
+    .div_grid_container_1 {
+        /* background-color: #2196F3; */
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+    .div_grid_container_1_item_1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:1;
+        grid-row-end:2;
+        /* background-color: red; */
+        width: 70px;
+        margin-left: auto;
+    }
+    .div_grid_container_1_item_2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start:1;
+        grid-row-end:2;
+        /* background-color: red; */
+        width: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div_grid_container_1_item_3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start:1;
+        grid-row-end:2;
+        /* background-color: red; */
+        width: 70px;
+        margin-right: auto;
+    }
+    .div_grid_container_1_item_4 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start:2;
+        grid-row-end:3;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .img_central {
+        width: 90%;
+        min-width: 200px;
+        max-width: 500px;
+    }
+
+    .div_cuadro_color_1 {
+        width: 60px;
+        height: 60px;
+        background-color: #02b3e4;
+        margin-left: auto;
+    }
+
+    .div_cuadro_color_2 {
+        width: 60px;
+        height: 60px;
+        background-color: #2d3c49;
+        margin-left: auto;
+    }
+
+    .div_cuadro_color_3 {
+        width: 60px;
+        height: 60px;
+        background-color: #7d97ad;
+        margin-left: auto;
+    }
+
+    /* END bloque 1*/
+
+    /* Section bloque 2 */
+
+    .div_grid_container_2 {
+        /* background-color: green; */
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+    .div_grid_container_2_item_1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start:1;
+        grid-row-end:2;
+        /* background-color: red; */
+    }
+    .div_grid_container_2_item_2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:2;
+        grid-row-end:3;
+        /* background-color: red; */
+    }
+    .div_grid_container_3_item_3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start:2;
+        grid-row-end:3;
+        /* background-color: red; */
+    }
+    .div_grid_container_4_item_4 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start:2;
+        grid-row-end:3;
+    }
+
+    .img_works {
+        width: 100%;
+    }
+
+    .div_works_texto {
+        min-width: 100px;
+    }
+
+    /* END bloque 2*/
+
+
+}
